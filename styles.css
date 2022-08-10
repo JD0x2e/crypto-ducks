@@ -86,10 +86,11 @@ section button {
     top: 40px;
     right: 220px;
     cursor: pointer;
-    border-radius: 20px;
-    padding: 15px;
-    border: none;
-    border: 2px solid #895E7A; 
+    border: solid 5px;
+    padding: 7.5px;
+    border-radius: 15px;
+    border-color: #895E7A;
+    border-style: double;    
 }
 
 section button:hover {
