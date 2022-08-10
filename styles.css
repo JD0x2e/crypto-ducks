@@ -1,0 +1,91 @@
+@import url('http://fonts.cdnfonts.com/css/games');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFD257;
+    margin: 0 auto;
+    font-family: 'Games';
+    
+}
+
+h1, h2, p {
+    color: #895E7A;
+    font-weight: bold;
+}
+
+img {
+    width: 65px;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+
+header {
+    height: 80px;
+    background-color: #ffe8ae;
+}
+
+nav li {
+    display: inline-block;
+    float: right;
+    padding-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #895E7A;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+section img {
+    width: 250px;
+}
+
+section {
+    margin: 40px;
+    text-align: center;
+}
+
+section p {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+h1 {
+    font-size: 3rem;
+}
+
+section button {
+   position: relative;
+   top: 40px;
+   right: 150px;
+   padding: 10px;
+   border-radius: 20px;
+   border: solid; 
+}
+
+section button:hover {
+    background-color: #895E7A
+}
+
+section h2 {
+    margin-top: 75px;
+}
+
+footer {
+    background-color: #ffe8ae;
+    height: 80px;
+}
