@@ -141,3 +141,16 @@ footer li a:hover {
     text-align: center;
     padding-right: 5rem;
 }
+
+.duck {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 33%;
+}
+
+/* .speedingticket {
+    height: 250px;
+    width: 250px;
+    position: relative;
+} */
