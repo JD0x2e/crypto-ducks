@@ -1,46 +1,63 @@
 
-let age = prompt("What age are you?");
+function getAge () {
+  let age = prompt("What age are you?");
+  let messages;
 
-let messages;
-
-if (age >= 18) {
-  messages = "You're an adult!"
-}
-else if (age < 13) {
-  messages = "You're a child!"
-}
-else {
-  messages = "You're a teenager!"
-}
-
-let mood = prompt("What mood are you in? (happy or sad)");
-let moodMessage;
-
-if (mood === "happy") {
-  moodMessage = "I'm pleased you're happy!";
-}
-else if (mood === "sad") {
-  moodMessage = "Maybe you'll feel better tomorrow!";
-}
-else {
-  moodMessage = "... I don't understand how you're feeling";
+  if (age >= 18) {
+    messages = "You're an adult!"
+  }
+  else if (age < 13) {
+    messages = "You're a child!"
+  }
+  else {
+    messages = "You're a teenager!"
+  }
+  return document.write(messages);
 }
 
-document.write(messages + " You're feeling " + mood + ", " + moodMessage);
+function getSpeedLimit() {
+  let speedLimit = prompt("What speed are you going?");
+  let warning;
 
-// Disabled the below JS code so it doesn't interfere with the above
+  if (speedLimit < 40){
+    warning = "You need to speed up!"
+  } 
+  else if(speedLimit > 60){ 
+    warning = "You are speeding!"
+  }
+  else {
+    warning = "You are driving fine!"
+  }
+  return document.write(warning);
+} 
 
-// let speedLimit = prompt("What speed are you going?");
+function getNumber() {
+  let favNumber = prompt("What is your favourite number?");
+  let number;
 
-// let message;
+  if (favNumber == 0) {
+      number = "That's a rubbish number!"
+  } else if (favNumber == 1) {
+      number = "That's still a rubbish number!"
+  } else {
+      number = " Atleast it's better than those numbers!"
+  }
+  return document.write(number);
+}
 
-// if (speedLimit < 40){
-//   message = "You need to speed up!"
-// } 
-// else if(speedLimit > 60){ 
-//   message = "You are speeding!"
-// }
-// else {
-//   message = "You are driving fine!"
-// }
-// document.write(message);
+
+function getMood() {
+  let mood = prompt("What mood are you in? (happy or sad)");
+  let moodMessage;
+
+  if (mood === "happy") {
+    moodMessage = "I'm pleased you're happy!";
+  }
+  else if (mood === "sad") {
+    moodMessage = "Maybe you'll feel better tomorrow!";
+  }
+  else {
+    moodMessage = "... I don't understand how you're feeling";
+  }
+   return document.write(" You're feeling " + mood + ", " + moodMessage + ", ");
+}
