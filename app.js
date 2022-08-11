@@ -26,7 +26,9 @@ else {
   moodMessage = "... I don't understand how you're feeling";
 }
 
-document.write(message + " You're feeling " + mood + ", " + moodMessage);
+document.write(messages + " You're feeling " + mood + ", " + moodMessage);
+
+// Disabled the below JS code so it doesn't interfere with the above
 
 // let speedLimit = prompt("What speed are you going?");
 
