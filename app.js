@@ -1,16 +1,16 @@
 
 let age = prompt("What age are you?");
 
-let message;
+let messages;
 
 if (age >= 18) {
-  message = "You're an adult!"
+  messages = "You're an adult!"
 }
 else if (age < 13) {
-  message = "You're a child!"
+  messages = "You're a child!"
 }
 else {
-  message = "You're a teenager!"
+  messages = "You're a teenager!"
 }
 
 document.write(message);
